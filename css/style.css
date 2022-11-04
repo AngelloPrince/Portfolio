@@ -1,0 +1,209 @@
+footer {
+  height: 20vh;
+  background-color: black;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(167, 244, 240);
+}
+header nav {
+  font-family: "Lobster", cursive;
+}
+header nav div {
+  background-color: rgb(167, 244, 240);
+}
+
+main .presentacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+main .presentacion #d_presentacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 80vh;
+  width: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .presentacion #d_presentacion h1 {
+  font-size: 50px;
+  margin-left: 50px;
+  color: rgb(201, 255, 248);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main .presentacion article {
+  height: 80vh;
+  width: 50%;
+}
+main #about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 40px;
+  height: 20vh;
+  font-size: 40px;
+}
+main #p_about {
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 15vh;
+  margin-right: 15vh;
+  font-size: 20px;
+  color: beige;
+  text-align: center;
+}
+main #experience {
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 40px;
+}
+main #s_experience {
+  height: 60vh;
+  background-color: cornsilk;
+}
+main #projects {
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 150px;
+  font-size: 40px;
+}
+main #s_projects {
+  height: 60vh;
+  background-color: cornsilk;
+}
+main #contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+main #contacto #form {
+  width: 50%;
+  height: 80vh;
+}
+main #contacto #form #contact {
+  font-size: 40px;
+  margin-top: 20px;
+  font-family: monospace;
+}
+main #contacto #form #p_contact {
+  font-size: 18px;
+  text-align: justify;
+  margin: 20px;
+  color: rgb(204, 243, 255);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main #contacto #form #formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main #contacto #form #formulario #nombre {
+  width: 30vh;
+  height: 3vh;
+  margin: 10px;
+  border-radius: 10px;
+}
+main #contacto #form #formulario #apellido {
+  width: 30vh;
+  height: 3vh;
+  margin: 10px;
+  border-radius: 10px;
+}
+main #contacto #form #formulario #email {
+  width: 30vh;
+  height: 3vh;
+  margin: 10px;
+  border-radius: 10px;
+}
+main #contacto #form #formulario #mensaje {
+  margin: 10px;
+}
+main #contacto #form #formulario #enviar {
+  width: 10vh;
+  height: 3vh;
+  margin-left: 10vh;
+  border-radius: 10px;
+  border-bottom: 20px;
+}
+main #contacto #form #formulario #enviar:hover {
+  background-color: rgb(201, 255, 248);
+}
+main #contacto #form #formulario #enviar:active {
+  color: aquamarine;
+  background-color: black;
+}
+main #contacto #mapa {
+  width: 50%;
+  height: 80vh;
+}
+main #contacto #mapa iframe {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(75, 75, 75);
+}
