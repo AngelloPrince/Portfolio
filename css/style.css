@@ -5,13 +5,16 @@ footer {
 
 header {
   width: 100%;
-  background-color: rgb(167, 244, 240);
+  background-image: radial-gradient(circle, #4df0ff, #4cf0ff, #4bf0ff, #4af0ff, #49f0ff, #51f1ff, #59f1ff, #60f2ff, #6ff3ff, #7cf4ff, #88f5ff, #93f6ff);
+  position: sticky;
+  top: 1px;
+  z-index: 100;
 }
 header nav {
   font-family: "Lobster", cursive;
 }
-header nav div {
-  background-color: rgb(167, 244, 240);
+header nav div a:hover {
+  font-size: 25px;
 }
 
 main .presentacion {
@@ -27,7 +30,7 @@ main .presentacion #d_presentacion {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  height: 80vh;
+  height: 90vh;
   width: 50%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -35,16 +38,79 @@ main .presentacion #d_presentacion {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 main .presentacion #d_presentacion h1 {
   font-size: 50px;
   margin-left: 50px;
   color: rgb(201, 255, 248);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Alkalami", serif;
+  position: relative;
+  z-index: 2;
+}
+main .presentacion #d_presentacion h1:hover {
+  font-size: 52px;
+}
+main .presentacion #d_presentacion video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .presentacion #d_presentacion .capa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1c1c1d;
+  opacity: 0.5;
+  mix-blend-mode: overlay;
 }
 main .presentacion article {
-  height: 80vh;
+  height: 90vh;
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .presentacion article img {
+  height: 60vh;
+  border-radius: 20px;
+  position: relative;
+  z-index: 2;
+}
+main .presentacion article img:hover {
+  border-radius: 10px;
+  height: 65vh;
+}
+main .presentacion article video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .presentacion article .capa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1c1c1d;
+  opacity: 0.5;
+  mix-blend-mode: overlay;
 }
 main #about {
   display: -webkit-box;
@@ -56,11 +122,12 @@ main #about {
       -ms-flex-align: center;
           align-items: center;
   margin-left: 40px;
-  height: 20vh;
+  height: 30vh;
   font-size: 40px;
+  font-family: "Alkalami", serif;
 }
 main #p_about {
-  height: 40vh;
+  height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,7 +146,7 @@ main #p_about {
   text-align: center;
 }
 main #experience {
-  height: 20vh;
+  height: 30vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -92,13 +159,14 @@ main #experience {
       -ms-flex-align: center;
           align-items: center;
   font-size: 40px;
+  font-family: "Alkalami", serif;
 }
 main #s_experience {
-  height: 60vh;
+  height: 80vh;
   background-color: cornsilk;
 }
 main #projects {
-  height: 20vh;
+  height: 30vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,9 +180,10 @@ main #projects {
           justify-content: flex-end;
   margin-right: 150px;
   font-size: 40px;
+  font-family: "Alkalami", serif;
 }
 main #s_projects {
-  height: 60vh;
+  height: 80vh;
   background-color: cornsilk;
 }
 main #contacto {
@@ -131,8 +200,8 @@ main #contacto #form {
 }
 main #contacto #form #contact {
   font-size: 40px;
-  margin-top: 20px;
-  font-family: monospace;
+  margin-top: 90px;
+  font-family: "Alkalami", serif;
 }
 main #contacto #form #p_contact {
   font-size: 18px;
@@ -205,5 +274,11 @@ main #contacto #mapa iframe {
 }
 
 body {
-  background-color: rgb(75, 75, 75);
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#515151), color-stop(#595959), color-stop(#626262), color-stop(#6a6a6a), color-stop(#737373), color-stop(#6c6c6c), color-stop(#656565), color-stop(#5e5e5e), color-stop(#464646), color-stop(#303030), color-stop(#1b1b1b), to(#000000));
+  background-image: linear-gradient(to right top, #515151, #595959, #626262, #6a6a6a, #737373, #6c6c6c, #656565, #5e5e5e, #464646, #303030, #1b1b1b, #000000);
+  cursor: url(../assets/images/cursor/822\ \(1\).png), auto;
+}
+
+a {
+  cursor: url(../assets/images/cursor/822\ \(2\).png), auto;
 }

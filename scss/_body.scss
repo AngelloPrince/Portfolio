@@ -4,5 +4,9 @@
 }
 
 body{
-    background-color: rgba(75, 75, 75, 1);
+    background-image: linear-gradient(to right top, #515151, #595959, #626262, #6a6a6a, #737373, #6c6c6c, #656565, #5e5e5e, #464646, #303030, #1b1b1b, #000000);
+    cursor: url(../assets/images/cursor/822\ \(1\).png), auto;
+}
+a{
+    cursor: url(../assets/images/cursor/822\ \(2\).png), auto;
 }
