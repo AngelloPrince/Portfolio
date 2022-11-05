@@ -99,10 +99,21 @@ main{
     #s_experience{
         height: 70vh;
         display: flex;
-        align-items: center;
+        align-items: baseline;
         justify-content: center;
+        background-color: black;
         img{
             margin: 5px;
+            animation-name: logosanimacion;
+            position: relative;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes logosanimacion{
+            0%{left: 0; top: 0px;}
+            25%{left: 0; top: 40%;}
+            50%{left: 0; top: 80%;}
+            100%{left: 0; top:0px;}
         }
         img:hover{
             height: 150px;

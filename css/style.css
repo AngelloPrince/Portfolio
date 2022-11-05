@@ -154,15 +154,59 @@ main #s_experience {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: black;
 }
 main #s_experience img {
   margin: 5px;
+  -webkit-animation-name: logosanimacion;
+          animation-name: logosanimacion;
+  position: relative;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes logosanimacion {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+@keyframes logosanimacion {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
 }
 main #s_experience img:hover {
   height: 150px;
@@ -283,4 +327,19 @@ body {
 
 a {
   cursor: url(../assets/images/cursor/822\ \(2\).png), auto;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#515151), color-stop(#595959), color-stop(#626262), color-stop(#6a6a6a), color-stop(#737373), color-stop(#6c6c6c), color-stop(#656565), color-stop(#5e5e5e), color-stop(#464646), color-stop(#303030), color-stop(#1b1b1b), to(#000000));
+  background-image: linear-gradient(to right top, #515151, #595959, #626262, #6a6a6a, #737373, #6c6c6c, #656565, #5e5e5e, #464646, #303030, #1b1b1b, #000000);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-image: radial-gradient(circle, #4df0ff, #4cf0ff, #4bf0ff, #4af0ff, #49f0ff, #51f1ff, #59f1ff, #60f2ff, #6ff3ff, #7cf4ff, #88f5ff, #93f6ff);
 }
