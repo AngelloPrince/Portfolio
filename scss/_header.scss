@@ -6,15 +6,21 @@ header{
         z-index: 100;
     nav{
         font-family: 'Lobster', cursive;
-        
+   
        div{
         a{
-
+            margin-left: 40px;
         }
         a:hover{
-            font-size: 25px;
+            font-size: 20px;
+            color: aliceblue !important;
         }
        }
+    }
+    nav:hover{
+        background-image: radial-gradient(circle, #ff6953, #ff5b42, #ff4b31, #fd391d, #fb2000);
+        
+        
     }
     
    

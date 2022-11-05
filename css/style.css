@@ -13,8 +13,15 @@ header {
 header nav {
   font-family: "Lobster", cursive;
 }
+header nav div a {
+  margin-left: 40px;
+}
 header nav div a:hover {
-  font-size: 25px;
+  font-size: 20px;
+  color: aliceblue !important;
+}
+header nav:hover {
+  background-image: radial-gradient(circle, #ff6953, #ff5b42, #ff4b31, #fd391d, #fb2000);
 }
 
 main .presentacion {
@@ -51,25 +58,6 @@ main .presentacion #d_presentacion h1 {
 main .presentacion #d_presentacion h1:hover {
   font-size: 52px;
 }
-main .presentacion #d_presentacion video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-main .presentacion #d_presentacion .capa {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #1c1c1d;
-  opacity: 0.5;
-  mix-blend-mode: overlay;
-}
 main .presentacion article {
   height: 90vh;
   width: 50%;
@@ -90,10 +78,9 @@ main .presentacion article img {
   z-index: 2;
 }
 main .presentacion article img:hover {
-  border-radius: 10px;
   height: 65vh;
 }
-main .presentacion article video {
+main .presentacion video {
   position: absolute;
   top: 0;
   left: 0;
@@ -102,7 +89,7 @@ main .presentacion article video {
   -o-object-fit: cover;
      object-fit: cover;
 }
-main .presentacion article .capa {
+main .presentacion .capa {
   position: absolute;
   top: 0;
   left: 0;
@@ -141,7 +128,7 @@ main #p_about {
           align-items: center;
   margin-left: 15vh;
   margin-right: 15vh;
-  font-size: 20px;
+  font-size: 30px;
   color: beige;
   text-align: center;
 }
@@ -160,10 +147,25 @@ main #experience {
           align-items: center;
   font-size: 40px;
   font-family: "Alkalami", serif;
+  position: relative;
 }
 main #s_experience {
-  height: 80vh;
-  background-color: cornsilk;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+main #s_experience img {
+  margin: 5px;
+}
+main #s_experience img:hover {
+  height: 150px;
 }
 main #projects {
   height: 30vh;
