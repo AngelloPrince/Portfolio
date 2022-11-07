@@ -40,7 +40,7 @@ main{
             }
    
         }
-        video{
+        .introvideo{
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -69,6 +69,7 @@ main{
         height: 30vh;
         font-size: 40px;
         font-family: 'Alkalami', serif;
+        
 
     }
     #p_about{
@@ -80,7 +81,7 @@ main{
         margin-left: 15vh;
         margin-right: 15vh; 
         font-size: 30px;
-        color: beige;
+        color: rgba(201, 255, 248, 1);
         text-align: center;
     }
     
@@ -94,7 +95,6 @@ main{
         font-size: 40px;
         font-family: 'Alkalami', serif;
         position: relative;
-
     }
     #s_experience{
         height: 70vh;
@@ -102,23 +102,189 @@ main{
         align-items: baseline;
         justify-content: center;
         background-color: black;
+// LOGOS EN MOVIMIENTO
         img{
-            margin: 5px;
-            animation-name: logosanimacion;
             position: relative;
-            animation-duration: 10s;
+            z-index: 2;
+            animation-timing-function: linear;
+        }
+        #html-css-js{
+            margin: 5px;
+            animation-name: animacionhtml-css-js;
+            position: relative;
+            animation-duration: 20s;
             animation-iteration-count: infinite;
         }
-        @keyframes logosanimacion{
+        @keyframes animacionhtml-css-js{
             0%{left: 0; top: 0px;}
             25%{left: 0; top: 40%;}
             50%{left: 0; top: 80%;}
             100%{left: 0; top:0px;}
         }
-        img:hover{
-            height: 150px;
+        #angularjs{
+            margin: 5px;
+            animation-name: animacionangularjs;
+            position: relative;
+            animation-duration: 19s;
+            animation-iteration-count: infinite;
         }
-        
+        @keyframes animacionangularjs{
+            0%{left: 0; top: 0px;}
+            25%{left: 0; top: 40%;}
+            50%{left: 0; top: 80%;}
+            100%{left: 0; top:0px;}
+        }
+        #bootstrap{
+            margin: 5px;
+            animation-name: animacionbootstrap;
+            position: relative;
+            animation-duration: 18s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animacionbootstrap{
+            0%{left: 0; top: 0px;}
+            25%{left: 0; top: 40%;}
+            50%{left: 0; top: 80%;}
+            100%{left: 0; top:0px;}
+        }
+        #ceo{
+            margin: 5px;
+            animation-name: animacionceo;
+            position: relative;
+            animation-duration: 17s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animacionceo{
+            0%{left: 0; top: 0px;}
+            25%{left: 0; top: 40%;}
+            50%{left: 0; top: 80%;}
+            100%{left: 0; top:0px;}
+        }
+        #figma{
+            margin: 5px;
+            animation-name: animacionfigma;
+            position: relative;
+            animation-duration: 16s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animacionfigma{
+            0%{left: 0; top: 0px;}
+            25%{left: 0; top: 40%;}
+            50%{left: 0; top: 80%;}
+            100%{left: 0; top:0px;}
+        }
+        #github{
+            margin: 5px;
+            animation-name: animaciongithub;
+            position: relative;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animaciongithub{
+            0%{left: 0; top: 0px;}
+            25%{left: 0; top: 40%;}
+            50%{left: 0; top: 80%;}
+            100%{left: 0; top:0px;}
+        }
+        #jquery{
+            margin: 5px;
+            animation-name: animacionjquery;
+            position: relative;
+            animation-duration: 14s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animacionjquery{
+            0%{left: 0; top: 0px;}
+            25%{left: 0; top: 40%;}
+            50%{left: 0; top: 80%;}
+            100%{left: 0; top:0px;}
+        }
+        #nodejs{
+            margin: 5px;
+            animation-name: animacionnodejs;
+            position: relative;
+            animation-duration: 15s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animacionnodejs{
+            0%{left: 0; top: 0px;}
+            25%{left: 0; top: 40%;}
+            50%{left: 0; top: 80%;}
+            100%{left: 0; top:0px;}
+        }
+        #php{
+            margin: 5px;
+            animation-name: animacionphp;
+            position: relative;
+            animation-duration: 16s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animacionphp{
+            0%{left: 0; top: 0px;}
+            25%{left: 0; top: 40%;}
+            50%{left: 0; top: 80%;}
+            100%{left: 0; top:0px;}
+        }
+        #python{
+            margin: 5px;
+            animation-name: animacionpython;
+            position: relative;
+            animation-duration: 17s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animacionpython{
+            0%{left: 0; top: 0px;}
+            25%{left: 0; top: 40%;}
+            50%{left: 0; top: 80%;}
+            100%{left: 0; top:0px;}
+        }
+        #reactjs{
+            margin: 5px;
+            animation-name: animacionreactjs;
+            position: relative;
+            animation-duration: 18s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animacionreactjs{
+            0%{left: 0; top: 0px;}
+            25%{left: 0; top: 40%;}
+            50%{left: 0; top: 80%;}
+            100%{left: 0; top:0px;}
+        }
+        #sass{
+            margin: 5px;
+            animation-name: animacionsass;
+            position: relative;
+            animation-duration: 19s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animacionsass{
+            0%{left: 0; top: 0px;}
+            25%{left: 0; top: 40%;}
+            50%{left: 0; top: 80%;}
+            100%{left: 0; top:0px;}
+        }
+        #uiux{
+            margin: 5px;
+            animation-name: animacionuiux;
+            position: relative;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animacionuiux{
+            0%{left: 0; top: 0px;}
+            25%{left: 0; top: 40%;}
+            50%{left: 0; top: 80%;}
+            100%{left: 0; top:0px;}
+        }
+        .humovideo{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     }
 
 
@@ -131,8 +297,7 @@ main{
         justify-content: flex-end;
         margin-right: 150px;
         font-size: 40px;
-        font-family: 'Alkalami', serif;
-        
+        font-family: 'Alkalami', serif; 
     }
     #s_projects{
         height: 80vh;
@@ -203,7 +368,6 @@ main{
         #mapa{
             width: 50%;
             height: 80vh;
-
             iframe{
                 width: 100%;
                 height: 100%;

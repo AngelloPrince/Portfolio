@@ -1,0 +1,184 @@
+@media(min-width: 320px) and (max-width: 480px){
+    main{
+        .presentacion{ 
+            #d_presentacion{
+                width: 100%;
+                height: 450px;
+                h1{
+                    font-size: 30px;
+                }
+                h1:hover{
+                    display: none;
+                }
+            }
+            article{
+                width: 100%;
+                height: 300px;
+                img{
+                    height: 250px;
+                }
+                img:hover{
+                    display: none;
+                }
+            }
+        }
+    // QUIEN SOY    
+        #about{
+            height: 15vh;
+            font-size: 30px;
+            margin-top: 30px;
+        }
+        #p_about{
+            height: 50vh;
+            margin-left: 5vh;
+            margin-right: 5vh; 
+            font-size: 13px;
+
+        }
+        
+    // EXPERIENCE
+        #experience{
+            height: 20vh;
+            font-size: 30px;
+        }
+        #s_experience{
+            height: 30vh;
+
+    // LOGOS EN MOVIMIENTO
+            img{
+                height: 12px;
+            }
+        }
+    // PROJECTS
+        #projects{
+            height: 20vh;
+            font-size: 20px;
+
+        }
+
+    // CONTACT
+        #contacto{
+            #form{
+                width: 100%;
+                height: 120vh;
+                #contact{
+                    font-size: 30px;
+
+                }
+                #p_contact{
+                    font-size: 15px;
+                    text-align: justify;
+                }
+                
+            }
+            #mapa{
+                width: 100%;
+                height: 80vh;
+                iframe{
+                    width: 100%;
+                    height: 100%;
+                    
+                }
+            }
+        }  
+    }
+}
+@media(max-width: 480px){
+
+}
+@media(max-width: 600px){
+
+}
+@media only screen and (min-width: 768px) and (max-width: 768px){
+    main{
+        .presentacion{ 
+
+            #d_presentacion{
+                width: 100%;
+                height: 300px;
+                h1{
+                    font-size: 40px;
+                }
+                h1:hover{
+                    display: none;
+                }
+            }
+            article{
+                width: 100%;
+                height: 300px;
+                img{
+                    height: 350px;
+                 
+                }
+                img:hover{
+                    display: none;
+                }
+            }
+        }
+    // QUIEN SOY    
+        #about{
+
+            font-size: 30px;
+            margin-top: 100px;
+        }
+        #p_about{
+            height: 50vh;
+            margin-left: 5vh;
+            margin-right: 5vh; 
+            font-size: 20px;
+
+        }
+        
+    // EXPERIENCE
+        #experience{
+            height: 20vh;
+            font-size: 30px;
+        }
+        #s_experience{
+            height: 30vh;
+
+    // LOGOS EN MOVIMIENTO
+            img{
+                height: 35px;
+            }
+        }
+    // PROJECTS
+        #projects{
+            height: 20vh;
+            font-size: 20px;
+
+        }
+
+    // CONTACT
+        #contacto{
+            #form{
+                width: 100%;
+                height: 100vh;
+                #contact{
+                    font-size: 40px;
+
+                }
+                #p_contact{
+                    font-size: 20px;
+                    text-align: justify;
+                }
+                
+            }
+            #mapa{
+                width: 100%;
+                height: 80vh;
+                iframe{
+                    width: 100%;
+                    height: 100%;
+                    
+                }
+            }
+        }  
+    }
+}
+@media(max-width: 1024px){
+
+}
+@media(max-width: 1200px){
+
+}

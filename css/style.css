@@ -80,7 +80,7 @@ main .presentacion article img {
 main .presentacion article img:hover {
   height: 65vh;
 }
-main .presentacion video {
+main .presentacion .introvideo {
   position: absolute;
   top: 0;
   left: 0;
@@ -129,7 +129,7 @@ main #p_about {
   margin-left: 15vh;
   margin-right: 15vh;
   font-size: 30px;
-  color: beige;
+  color: rgb(201, 255, 248);
   text-align: center;
 }
 main #experience {
@@ -163,16 +163,22 @@ main #s_experience {
   background-color: black;
 }
 main #s_experience img {
-  margin: 5px;
-  -webkit-animation-name: logosanimacion;
-          animation-name: logosanimacion;
   position: relative;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
+  z-index: 2;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+main #s_experience #html-css-js {
+  margin: 5px;
+  -webkit-animation-name: animacionhtml-css-js;
+          animation-name: animacionhtml-css-js;
+  position: relative;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
-@-webkit-keyframes logosanimacion {
+@-webkit-keyframes animacionhtml-css-js {
   0% {
     left: 0;
     top: 0px;
@@ -190,7 +196,7 @@ main #s_experience img {
     top: 0px;
   }
 }
-@keyframes logosanimacion {
+@keyframes animacionhtml-css-js {
   0% {
     left: 0;
     top: 0px;
@@ -208,8 +214,566 @@ main #s_experience img {
     top: 0px;
   }
 }
-main #s_experience img:hover {
-  height: 150px;
+main #s_experience #angularjs {
+  margin: 5px;
+  -webkit-animation-name: animacionangularjs;
+          animation-name: animacionangularjs;
+  position: relative;
+  -webkit-animation-duration: 19s;
+          animation-duration: 19s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes animacionangularjs {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+@keyframes animacionangularjs {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+main #s_experience #bootstrap {
+  margin: 5px;
+  -webkit-animation-name: animacionbootstrap;
+          animation-name: animacionbootstrap;
+  position: relative;
+  -webkit-animation-duration: 18s;
+          animation-duration: 18s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes animacionbootstrap {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+@keyframes animacionbootstrap {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+main #s_experience #ceo {
+  margin: 5px;
+  -webkit-animation-name: animacionceo;
+          animation-name: animacionceo;
+  position: relative;
+  -webkit-animation-duration: 17s;
+          animation-duration: 17s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes animacionceo {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+@keyframes animacionceo {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+main #s_experience #figma {
+  margin: 5px;
+  -webkit-animation-name: animacionfigma;
+          animation-name: animacionfigma;
+  position: relative;
+  -webkit-animation-duration: 16s;
+          animation-duration: 16s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes animacionfigma {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+@keyframes animacionfigma {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+main #s_experience #github {
+  margin: 5px;
+  -webkit-animation-name: animaciongithub;
+          animation-name: animaciongithub;
+  position: relative;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes animaciongithub {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+@keyframes animaciongithub {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+main #s_experience #jquery {
+  margin: 5px;
+  -webkit-animation-name: animacionjquery;
+          animation-name: animacionjquery;
+  position: relative;
+  -webkit-animation-duration: 14s;
+          animation-duration: 14s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes animacionjquery {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+@keyframes animacionjquery {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+main #s_experience #nodejs {
+  margin: 5px;
+  -webkit-animation-name: animacionnodejs;
+          animation-name: animacionnodejs;
+  position: relative;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes animacionnodejs {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+@keyframes animacionnodejs {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+main #s_experience #php {
+  margin: 5px;
+  -webkit-animation-name: animacionphp;
+          animation-name: animacionphp;
+  position: relative;
+  -webkit-animation-duration: 16s;
+          animation-duration: 16s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes animacionphp {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+@keyframes animacionphp {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+main #s_experience #python {
+  margin: 5px;
+  -webkit-animation-name: animacionpython;
+          animation-name: animacionpython;
+  position: relative;
+  -webkit-animation-duration: 17s;
+          animation-duration: 17s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes animacionpython {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+@keyframes animacionpython {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+main #s_experience #reactjs {
+  margin: 5px;
+  -webkit-animation-name: animacionreactjs;
+          animation-name: animacionreactjs;
+  position: relative;
+  -webkit-animation-duration: 18s;
+          animation-duration: 18s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes animacionreactjs {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+@keyframes animacionreactjs {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+main #s_experience #sass {
+  margin: 5px;
+  -webkit-animation-name: animacionsass;
+          animation-name: animacionsass;
+  position: relative;
+  -webkit-animation-duration: 19s;
+          animation-duration: 19s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes animacionsass {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+@keyframes animacionsass {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+main #s_experience #uiux {
+  margin: 5px;
+  -webkit-animation-name: animacionuiux;
+          animation-name: animacionuiux;
+  position: relative;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes animacionuiux {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+@keyframes animacionuiux {
+  0% {
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    left: 0;
+    top: 40%;
+  }
+  50% {
+    left: 0;
+    top: 80%;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+main #s_experience .humovideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 main #projects {
   height: 30vh;
@@ -342,4 +906,136 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-thumb:hover {
   background-image: radial-gradient(circle, #4df0ff, #4cf0ff, #4bf0ff, #4af0ff, #49f0ff, #51f1ff, #59f1ff, #60f2ff, #6ff3ff, #7cf4ff, #88f5ff, #93f6ff);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  main .presentacion #d_presentacion {
+    width: 100%;
+    height: 450px;
+  }
+  main .presentacion #d_presentacion h1 {
+    font-size: 30px;
+  }
+  main .presentacion #d_presentacion h1:hover {
+    display: none;
+  }
+  main .presentacion article {
+    width: 100%;
+    height: 300px;
+  }
+  main .presentacion article img {
+    height: 250px;
+  }
+  main .presentacion article img:hover {
+    display: none;
+  }
+  main #about {
+    height: 15vh;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  main #p_about {
+    height: 50vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    font-size: 13px;
+  }
+  main #experience {
+    height: 20vh;
+    font-size: 30px;
+  }
+  main #s_experience {
+    height: 30vh;
+  }
+  main #s_experience img {
+    height: 12px;
+  }
+  main #projects {
+    height: 20vh;
+    font-size: 20px;
+  }
+  main #contacto #form {
+    width: 100%;
+    height: 120vh;
+  }
+  main #contacto #form #contact {
+    font-size: 30px;
+  }
+  main #contacto #form #p_contact {
+    font-size: 15px;
+    text-align: justify;
+  }
+  main #contacto #mapa {
+    width: 100%;
+    height: 80vh;
+  }
+  main #contacto #mapa iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  main .presentacion #d_presentacion {
+    width: 100%;
+    height: 300px;
+  }
+  main .presentacion #d_presentacion h1 {
+    font-size: 40px;
+  }
+  main .presentacion #d_presentacion h1:hover {
+    display: none;
+  }
+  main .presentacion article {
+    width: 100%;
+    height: 300px;
+  }
+  main .presentacion article img {
+    height: 350px;
+  }
+  main .presentacion article img:hover {
+    display: none;
+  }
+  main #about {
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  main #p_about {
+    height: 50vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    font-size: 20px;
+  }
+  main #experience {
+    height: 20vh;
+    font-size: 30px;
+  }
+  main #s_experience {
+    height: 30vh;
+  }
+  main #s_experience img {
+    height: 35px;
+  }
+  main #projects {
+    height: 20vh;
+    font-size: 20px;
+  }
+  main #contacto #form {
+    width: 100%;
+    height: 100vh;
+  }
+  main #contacto #form #contact {
+    font-size: 40px;
+  }
+  main #contacto #form #p_contact {
+    font-size: 20px;
+    text-align: justify;
+  }
+  main #contacto #mapa {
+    width: 100%;
+    height: 80vh;
+  }
+  main #contacto #mapa iframe {
+    width: 100%;
+    height: 100%;
+  }
 }
