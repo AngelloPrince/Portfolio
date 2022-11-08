@@ -89,16 +89,6 @@ main .presentacion .introvideo {
   -o-object-fit: cover;
      object-fit: cover;
 }
-main .presentacion .capa {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #1c1c1d;
-  opacity: 0.5;
-  mix-blend-mode: overlay;
-}
 main #about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -908,7 +898,7 @@ body::-webkit-scrollbar-thumb:hover {
   background-image: radial-gradient(circle, #4df0ff, #4cf0ff, #4bf0ff, #4af0ff, #49f0ff, #51f1ff, #59f1ff, #60f2ff, #6ff3ff, #7cf4ff, #88f5ff, #93f6ff);
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 479px) {
   main .presentacion #d_presentacion {
     width: 100%;
     height: 450px;
@@ -921,7 +911,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
   main .presentacion article {
     width: 100%;
-    height: 300px;
+    height: 350px;
   }
   main .presentacion article img {
     height: 250px;
@@ -932,7 +922,6 @@ body::-webkit-scrollbar-thumb:hover {
   main #about {
     height: 15vh;
     font-size: 30px;
-    margin-top: 30px;
   }
   main #p_about {
     height: 50vh;
@@ -974,7 +963,72 @@ body::-webkit-scrollbar-thumb:hover {
     height: 100%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 768px) {
+@media (min-width: 480px) and (max-width: 767px) {
+  main .presentacion #d_presentacion {
+    width: 100%;
+    height: 450px;
+  }
+  main .presentacion #d_presentacion h1 {
+    font-size: 30px;
+  }
+  main .presentacion #d_presentacion h1:hover {
+    display: none;
+  }
+  main .presentacion article {
+    width: 100%;
+    height: 350px;
+  }
+  main .presentacion article img {
+    height: 250px;
+  }
+  main .presentacion article img:hover {
+    display: none;
+  }
+  main #about {
+    height: 15vh;
+    font-size: 30px;
+  }
+  main #p_about {
+    height: 50vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    font-size: 13px;
+  }
+  main #experience {
+    height: 20vh;
+    font-size: 30px;
+  }
+  main #s_experience {
+    height: 30vh;
+  }
+  main #s_experience img {
+    height: 12px;
+  }
+  main #projects {
+    height: 20vh;
+    font-size: 20px;
+  }
+  main #contacto #form {
+    width: 100%;
+    height: 120vh;
+  }
+  main #contacto #form #contact {
+    font-size: 30px;
+  }
+  main #contacto #form #p_contact {
+    font-size: 15px;
+    text-align: justify;
+  }
+  main #contacto #mapa {
+    width: 100%;
+    height: 80vh;
+  }
+  main #contacto #mapa iframe {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   main .presentacion #d_presentacion {
     width: 100%;
     height: 300px;
@@ -987,7 +1041,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
   main .presentacion article {
     width: 100%;
-    height: 300px;
+    height: 500px;
   }
   main .presentacion article img {
     height: 350px;
@@ -997,7 +1051,6 @@ body::-webkit-scrollbar-thumb:hover {
   }
   main #about {
     font-size: 30px;
-    margin-top: 100px;
   }
   main #p_about {
     height: 50vh;
@@ -1037,5 +1090,139 @@ body::-webkit-scrollbar-thumb:hover {
   main #contacto #mapa iframe {
     width: 100%;
     height: 100%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+  main .presentacion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main .presentacion #d_presentacion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 90vh;
+    width: 50%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  main .presentacion #d_presentacion h1 {
+    font-size: 50px;
+    margin-left: 50px;
+    color: rgb(201, 255, 248);
+    font-family: "Alkalami", serif;
+    position: relative;
+    z-index: 2;
+  }
+  main .presentacion #d_presentacion h1:hover {
+    font-size: 52px;
+  }
+  main .presentacion article {
+    height: 95vh;
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .presentacion article img {
+    height: 60vh;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+  }
+  main .presentacion article img:hover {
+    height: 65vh;
+  }
+  main .presentacion .introvideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main #p_about {
+    height: 80vh;
+  }
+  main #experience {
+    height: 30vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 40px;
+    font-family: "Alkalami", serif;
+    position: relative;
+  }
+  main #s_experience {
+    height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: black;
+  }
+  main #s_experience img {
+    height: 50px;
+  }
+  main #projects {
+    height: 30vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 150px;
+    font-size: 40px;
+    font-family: "Alkalami", serif;
+  }
+  main #s_projects {
+    height: 80vh;
+    background-color: cornsilk;
+  }
+  main #contacto #form {
+    height: 80vh;
+  }
+  main #contacto #form #contact {
+    margin-top: 30px;
+  }
+  main #contacto #form #p_contact {
+    font-size: 15px;
+    margin: 20px;
   }
 }
