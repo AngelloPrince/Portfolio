@@ -1,0 +1,27 @@
+header{
+    width: 100%;
+    background-image: radial-gradient(circle, #4df0ff, #4cf0ff, #4bf0ff, #4af0ff, #49f0ff, #51f1ff, #59f1ff, #60f2ff, #6ff3ff, #7cf4ff, #88f5ff, #93f6ff);
+    position: sticky;
+        top: 1px;
+        z-index: 100;
+    nav{
+        font-family: 'Lobster', cursive;
+   
+       div{
+        a{
+            margin-left: 40px;
+        }
+        a:hover{
+            font-size: 20px;
+            color: aliceblue !important;
+        }
+       }
+    }
+    nav:hover{
+        background-image: radial-gradient(circle, #ff6953, #ff5b42, #ff4b31, #fd391d, #fb2000);
+        
+        
+    }
+    
+   
+}
