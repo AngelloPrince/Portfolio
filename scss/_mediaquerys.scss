@@ -47,15 +47,10 @@
 
     // LOGOS EN MOVIMIENTO
             img{
-                height: 12px;
+                height: 100px;
             }
         }
-    // PROJECTS
-        #projects{
-            height: 20vh;
-            font-size: 20px;
 
-        }
 
     // CONTACT
         #contacto{
@@ -221,7 +216,7 @@
 
     // LOGOS EN MOVIMIENTO
             img{
-                height: 35px;
+                height: 150px;
             }
         }
     // PROJECTS
@@ -333,15 +328,10 @@
             #s_experience{
                 height: 70vh;
                 display: flex;
-                align-items: baseline;
                 justify-content: center;
+                align-items: center;
                 background-color: black;
-        // LOGOS EN MOVIMIENTO
-                img{
-                    height: 50px;
-                }
             }
-        
         
         // PROJECTS
             #projects{
