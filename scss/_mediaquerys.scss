@@ -1,9 +1,10 @@
 @media(min-width: 320px) and (max-width: 479px){
     main{
         .presentacion{ 
+            height: 800px;
             #d_presentacion{
                 width: 100%;
-                height: 450px;
+                height: 300px;
                 h1{
                     font-size: 30px;
                 }
@@ -15,7 +16,7 @@
                 width: 100%;
                 height: 350px;
                 img{
-                    height: 250px;
+                    height: 200px;
                 }
                 img:hover{
                     display: none;

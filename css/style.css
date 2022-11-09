@@ -899,9 +899,12 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
+  main .presentacion {
+    height: 800px;
+  }
   main .presentacion #d_presentacion {
     width: 100%;
-    height: 450px;
+    height: 300px;
   }
   main .presentacion #d_presentacion h1 {
     font-size: 30px;
@@ -914,7 +917,7 @@ body::-webkit-scrollbar-thumb:hover {
     height: 350px;
   }
   main .presentacion article img {
-    height: 250px;
+    height: 200px;
   }
   main .presentacion article img:hover {
     display: none;
