@@ -137,6 +137,7 @@ main{
         display: flex;
         flex-wrap: wrap;
         text-align: center;
+        font-family: 'Lobster', cursive;
         #form{
             width: 50%;
             height: 80vh;
@@ -159,24 +160,26 @@ main{
                 align-items: center;
                 #nombre{
                     width: 30vh;
-                    height: 3vh;
+                    height: 5vh;
                     margin: 10px;
                     border-radius: 10px; 
                 }
                 #apellido{
                     width: 30vh;
-                    height: 3vh;
+                    height: 5vh;
                     margin: 10px;
                     border-radius: 10px;
+               
                 }
                 #email{
                     width: 30vh;
-                    height: 3vh;
+                    height: 5vh;
                     margin: 10px;
                     border-radius: 10px;
                 }
                 #mensaje{
                     margin: 10px;
+                    background-color:aliceblue;
                 }
                 #enviar{
                     width: 10vh;
@@ -197,10 +200,13 @@ main{
         #mapa{
             width: 50%;
             height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             iframe{
-                width: 100%;
-                height: 100%;
-                
+                width: 80%;
+                height: 80%;
+                border-radius: 10px;
             }
         }
     }

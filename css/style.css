@@ -1,6 +1,34 @@
 footer {
-  height: 20vh;
-  background-color: black;
+  background-image: radial-gradient(circle, #4df0ff, #4cf0ff, #4bf0ff, #4af0ff, #49f0ff, #51f1ff, #59f1ff, #60f2ff, #6ff3ff, #7cf4ff, #88f5ff, #93f6ff);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Lobster", cursive;
+}
+footer div {
+  width: 30%;
+  text-align: center;
+}
+footer div #p_footer {
+  color: #000000;
+}
+footer div a {
+  display: list-item;
+  list-style-type: none;
+  color: #000000;
+}
+footer #s_section {
+  text-align: center;
+  width: 40%;
+}
+footer #s_section a img {
+  height: 40px;
+}
+footer #f_contacto {
+  text-align: center;
+}
+footer #f_contacto a img {
+  height: 40px;
 }
 
 header {
@@ -193,6 +221,7 @@ main #contacto {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   text-align: center;
+  font-family: "Lobster", cursive;
 }
 main #contacto #form {
   width: 50%;
@@ -226,24 +255,25 @@ main #contacto #form #formulario {
 }
 main #contacto #form #formulario #nombre {
   width: 30vh;
-  height: 3vh;
+  height: 5vh;
   margin: 10px;
   border-radius: 10px;
 }
 main #contacto #form #formulario #apellido {
   width: 30vh;
-  height: 3vh;
+  height: 5vh;
   margin: 10px;
   border-radius: 10px;
 }
 main #contacto #form #formulario #email {
   width: 30vh;
-  height: 3vh;
+  height: 5vh;
   margin: 10px;
   border-radius: 10px;
 }
 main #contacto #form #formulario #mensaje {
   margin: 10px;
+  background-color: aliceblue;
 }
 main #contacto #form #formulario #enviar {
   width: 10vh;
@@ -262,10 +292,20 @@ main #contacto #form #formulario #enviar:active {
 main #contacto #mapa {
   width: 50%;
   height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 main #contacto #mapa iframe {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
 }
 
 * {
@@ -344,7 +384,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
   main #contacto #form {
     width: 100%;
-    height: 120vh;
+    height: 100vh;
   }
   main #contacto #form #contact {
     font-size: 30px;
@@ -355,11 +395,19 @@ body::-webkit-scrollbar-thumb:hover {
   }
   main #contacto #mapa {
     width: 100%;
-    height: 80vh;
+    height: 50vh;
   }
-  main #contacto #mapa iframe {
-    width: 100%;
-    height: 100%;
+  footer div #p_footer {
+    font-size: 10px;
+  }
+  footer div a {
+    font-size: 10px;
+  }
+  footer #s_section a img {
+    height: 25px;
+  }
+  footer #f_contacto a img {
+    height: 25px;
   }
 }
 @media (min-width: 480px) and (max-width: 767px) {
